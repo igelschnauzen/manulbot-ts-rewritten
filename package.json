@@ -1,0 +1,15 @@
+{
+  "name": "manulbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "@types/node": "^18.15.11",
+    "telegraf": "^3.38.0"
+  },
+  "scripts": {
+    "build": "rm -rf ./dir && tsc && node ./dir/main.js"
+  },
+  "author": "pieceofwater",
+  "license": "ISC"
+}
